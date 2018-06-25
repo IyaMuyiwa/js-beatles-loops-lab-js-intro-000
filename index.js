@@ -29,3 +29,14 @@ function johnLennonFacts(facts) {
   }
 return facts
 }
+
+//function iLoveTheBeatles that uses a do-while loop to add "I love the Beatles!" to an array 15 times
+function iLoveTheBeatles(n) {
+  var array =[]
+  n = 0
+  do {
+    array.push("I love the Beatles!")
+    n++}
+  while (array.length<15);
+  return array
+  }
